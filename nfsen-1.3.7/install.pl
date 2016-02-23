@@ -773,7 +773,8 @@ PatchAllScripts();
 Cleanup();
 SetupEnv($nfsen_uid, $www_gid);
 
-UpgradeProfiles($nfsen_uid, $www_gid);
+#Running UpgradeProfiles on fresh install seems to barf! Commenting out for now.
+#UpgradeProfiles($nfsen_uid, $www_gid);
 
 if ( $need_rrdlayout_upgrade ) {
 	print "The profiles need be be updated to new RRD layout:\n";
