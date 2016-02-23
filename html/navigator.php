@@ -29,6 +29,7 @@ function navigator () {
 
 
 ?>
+        <img src="icons/data-centred-logo1.png" alt="dc" >
 	<form action="<?php echo $self?>" name='navi' method="POST">
 	<div class="shadetabs"><br>
 	<table border='0' cellpadding="0" cellspacing="0">
